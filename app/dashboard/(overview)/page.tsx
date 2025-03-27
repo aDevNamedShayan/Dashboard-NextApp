@@ -17,7 +17,6 @@ export default async function DashboardPage() {
           <CardWrapper />
         </Suspense>
       </div>
-      <p className='p-4 mt-4 border border-gray-200 rounded-md'>My Component that is static</p>
       <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
         <Suspense fallback={<RevenueChartSkeleton />}>
           <RevenueChart />
